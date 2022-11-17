@@ -1,0 +1,503 @@
+/*Estilos de Delivery*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato&display=swap');
+body{
+
+    background-color: #f0ede6;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+}
+h3{
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    color: #352621;
+    font-size: 18px;
+}
+.Estilo_Navegación{
+    background-color: #ffa53d;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: -1.5%;
+    margin-bottom: 1%;
+    display: flex;
+    text-align: center;
+}
+.Estilo_Navegación img{
+
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.menúnav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 0%;
+    padding-top: 3%;
+    margin-left: 25%;
+}
+.menúnav ul{
+    list-style: none;
+}
+.menúnav ul li{
+    display: inline-block;
+}
+.menúnav ul li a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.menúnav ul li a:hover{
+    color: #F1F0F0;
+    border-bottom: 1px solid;
+}
+header{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header img{
+    border-radius: 30px;
+}
+.Menú_Tacontento{
+    max-width: 1000px;
+    max-height: 600px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+/*Flexbox Menú*/
+.Contenedor_Box{
+    background-color: red;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.Box_tacos{
+    background-color: #ffffff;
+    width: 250px;
+    height: 180px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_tacos img{
+    width: 170px;
+    border-radius: 85px;
+    margin-top: -27%;
+}
+.Box_tacos a{
+    text-decoration: none;
+    color: #000000;
+}
+.Box_tacos a:hover{
+    color: #352621;
+    border-bottom: 1px solid;
+}
+.Box_Especiales{
+    background-color: #ffffff;
+    width: 250px;
+    height: 180px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_Especiales img{
+    width: 170px;
+    border-radius: 85px;
+    margin-top: -27%;
+}
+.Box_Especiales a{
+    text-decoration: none;
+    color: #000000;
+}
+.Box_Especiales a:hover{
+    color: #352621;
+    border-bottom: 1px solid;
+}
+.Box_Bebidas{
+    background-color:  #ffffff;
+    width: 250px;
+    height: 180px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_Bebidas img{
+    width: 170px;
+    border-radius: 85px;
+    margin-top: -27%;
+}
+.Box_Bebidas a{
+    text-decoration: none;
+    color: #000000;
+}
+.Box_Bebidas a:hover{
+    color: #352621;
+    border-bottom: 1px solid;
+}
+.Box_Postres{
+    background-color: #ffffff;
+    width: 250px;
+    height: 180px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_Postres img{
+    width: 170px;
+    border-radius: 85px;
+    margin-top: -27%;
+}
+.Box_Postres a{
+    text-decoration: none;
+    color: #000000;
+}
+.Box_Postres a:hover{
+    color: #352621;
+    border-bottom: 1px solid;
+}
+/*background tarjetas*/
+.Encabezado_ubicaciones{
+    background-color: #f0ede6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+/*Flexbox ubicaciones*/
+.Contenedor_ubicaciones{
+    background-color:  #ffa53d;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Box_Logo{
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+}
+.Box_texto_insurgentes{
+    background-color: #ffffff;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_texto_insurgentes{
+    text-align: center;
+}
+.Mapa_insurgentes{
+    width: 280px;
+    height: 280px;
+    margin-top: 4.3%;
+    margin-bottom: 4.3%;
+    border-radius: 15px;
+}
+.Mapa_insurgentes iframe{
+    width: 280px;
+    height: 280px;
+    margin-top: 4.3%;
+    margin-bottom: 4.3%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_texto_condesa{
+    background-color: #ffffff;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Mapa_condesa{
+    width: 280px;
+    height: 280px;
+    margin-top: 4.3%;
+    margin-bottom: 4.3%;
+    border-radius: 15px;
+}
+.Mapa_condesa{
+    width: 280px;
+    height: 280px;
+    margin-top: 4.3%;
+    margin-bottom: 4.3%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+/*Sección Delivery*/
+.Box_Texto_Delivery{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+    text-align: center;
+    color: #000000;
+}
+/*Se quita boton para reubicarlo*/
+.Contenedor_delivery{
+background-color:  #ffa53d;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+border-radius: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.Box_Del_tacos{
+    background-color: #ffffff;
+    width: 300px;
+    height: 280px;
+    margin-left: 2.5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_Del_especiales{
+    background-color: #ffffff;
+    width: 300px;
+    height: 280px;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_Del_bebidas{
+    background-color: #ffffff;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    padding-top: 2%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Box_Del_postres{
+    background-color: #ffffff;
+    width: 300px;
+    height: 280px;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+/*Contenedor de Ventas*/
+.Box_datos{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Orden_tacos{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Orden_especiales{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Orden_bebidas{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Orden_postres{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Complementos{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.Ingredientes_extra{
+    background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+#button_delivery{
+    background-color: gold;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+#button_delivery a{
+    color: #000000;
+    text-decoration: none;
+}
+#button_delivery a:hover{
+    color: #000000;
+}
+footer{
+    text-align: center;
+    color:   #000000;
+    background-color: #ffa53d;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+footer p{
+    font-size: 14px;
+    color: #352621;
+}
+footer a{
+    text-decoration: none;
+    color:  #352621;
+}
+footer a:hover{
+    color: #352621;
+    border-bottom: 1px solid;
+}
+.Dirección{
+    text-align: left;
+    padding-left: 2%;
+}
+.Legal{
+    text-align: right;
+    padding-right: 2%;
+}
+#Autor{
+    text-align: center;
+}
